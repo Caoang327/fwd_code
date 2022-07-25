@@ -17,3 +17,20 @@ If you find this code useful, please consider citing:
     year      = {2022},
     }
 ```
+
+**Note** This code is still preliminary. Please check [To Do List](./docs/todos.md).
+
+# Usage Instructions
+[1. Environment Setup](./docs/environment.md)
+
+
+[2. Getting Data](./docs/data_setup.md)
+
+
+[3. Training & Evaluation](./docs/train_commands.md)
+
+[4. To Do List](./docs/todos.md)
+
+# Acknowledgments
+Our code is built upon [Pytorch3D](https://pytorch3d.org/) and [SynSin](https://github.com/facebookresearch/synsin).
+We would like to acknowledge them for making great code openly available for us to use.
