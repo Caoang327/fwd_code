@@ -138,9 +138,11 @@ class ArgumentParser:
 
         training.add_argument("--batch-size", type=int, default=16)
         training.add_argument("--continue_epoch", type=int, default=0)
+        training.add_argument("--current_episode_train", type=int, default=-1)
+        training.add_argument("--current_episode_val", type=int, default=-1)
         training.add_argument("--max_epoch", type=int, default=500)
         training.add_argument("--folder_to_save", type=str, default="outpaint")
-        training.add_argument("--model-epoch-path", type=str, default="/models/lr%0.5f_bs%d_model%s_spl%s/")
+        training.add_argument("--model-epoch-path", type=str, default="models/lr%0.5f_bs%d_model%s_spl%s")
         training.add_argument("--run-dir", type=str, default="/runs/lr%0.5f_bs%d_model%s_spl%s/")
         training.add_argument("--suffix", type=str, default="")
         training.add_argument("--render_ids", type=int, nargs="+", default=[0, 1])
